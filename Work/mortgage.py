@@ -27,5 +27,6 @@ while principal > 0:
         print(months, total_paid, principal)
         break 
 
-print('Total paid', total_paid)
-print('Total months to pay', months)
+print(f'${total_paid:0.1f} paid in total during {months} months')
+
+
